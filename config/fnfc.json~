@@ -1,0 +1,17 @@
+{
+    "fnfc" : {
+        "port" : 2055
+    },
+    "logger" : {
+        "level" : "info"
+    },
+    "mongodb" : {
+        "ip" : "localhost",
+        "port" : 27017,
+        "db" : "netflow",
+        "collection" : {
+            "templates" : "templates",
+            "records" : "records"
+        }
+    }
+}
